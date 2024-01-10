@@ -9,6 +9,7 @@ Products.Add("Product1", new Product() { PName = "Shampoo", PBrand = " Dove", PP
 Products.Add("Product3", new Product() { PName = "Moisturizing cream", PBrand = " Nova", PPrice = 99, ManufacturingDate = new DateTime(day: 10, month: 08, year: 2022), ExpiryDate = new DateTime(day: 11, month: 10, year: 2024) });
 Products.Add("Product4", new Product() { PName = "Hair Oil", PBrand = " Parachute", PPrice = 150, ManufacturingDate = new DateTime(day: 10, month: 08, year: 2022), ExpiryDate = new DateTime(day: 11, month: 10, year: 2024) });
 Products.Add("Product5", new Product() { PName = "Maggie", PBrand = " Maggi", PPrice = 49, ManufacturingDate = new DateTime(day: 10, month: 08, year: 2022), ExpiryDate = new DateTime(day: 11, month: 10, year: 2024) });
+Products.Add("Product6", new Product() { PName = "Product6", PBrand = " PBrand6", PPrice = 999, ManufacturingDate = new DateTime(day: 01, month: 01, year: 2024), ExpiryDate = new DateTime(day: 01, month: 01, year: 2026) });
 
 
 foreach (var product in Products)
